@@ -1,0 +1,93 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+html, body {
+  width: 100%;
+  height: 100%;
+}
+#app {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  background-color: rgb(24, 41, 41);
+}
+.container {
+  background-color: darkslategrey;
+  padding: 40px;
+  box-shadow: 1px 1px 20px black;
+}
+.container h1 {
+  color: black;
+  margin: 20px auto;
+  text-align: center;
+}
+.container input {
+  padding: 10px;
+  margin: 10px;
+  font-size: large;
+}
+.container input:focus {
+  outline: none;
+}
+.add {
+  padding: 10px;
+  border-radius: 0;
+  border: none;
+  font-size: large;
+  background-color: rgb(24, 41, 41);
+  color: whitesmoke;
+}
+.add:hover {
+  background-color: rgba(24, 41, 41, 0.753);
+}
+button:hover {
+  cursor: pointer;
+}
+ul {
+  list-style: none;
+  width: 100%;
+  margin-top: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+ul li {
+  font-size: larger;
+  font-weight: 700;
+  color: rgb(20, 20, 20);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  width: fit-content;
+}
+.delete {
+  margin: 0 10px;
+  border: none;
+  border-radius: 50%;
+  padding: 0 .4em;
+  font-weight: 800;
+  font-size: medium;
+  background-color: salmon;
+}
+.options {
+  padding: 3px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  background-color: rgb(57, 192, 255);
+  border: none;
+  margin: 0 10px;
+}
+.options div {
+  background-color: rgb(255, 255, 255);
+  padding: 1px 8px;
+  margin: 1px 0;
+  width: 100%;
+}
